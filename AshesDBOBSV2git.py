@@ -11,7 +11,7 @@ class FirebaseService:
     def __init__(self):
         # Replace with your Firebase project configuration
         self.api_key = 'API KEY'  # Replace with your API Key
-        self.project_id = 'PorjectID'  # Replace with your Project ID
+        self.project_id = 'ProjectID'  # Replace with your Project ID
         self.auth_url = 'https://identitytoolkit.googleapis.com/v1/accounts'
         self.database_url = f'https://firestore.googleapis.com/v1/projects/{self.project_id}/databases/(default)/documents'
         self.user = None  # Will hold user info after authentication
